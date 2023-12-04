@@ -4,7 +4,7 @@ rankdir=LR;
 subgraph cluster_root___network {
 label=network;
 rankdir=LR;
-V_8 [fillcolor=cyan, fontsize=12, label=F_N_A, penwidth=3, style=filled];
+V_8 [fillcolor=yellow, fontsize=12, label=F_N_A, penwidth=3, style=filled];
 }
 
 subgraph cluster_root___projection {
@@ -22,11 +22,11 @@ E_5 -> V_5  [splines=ortho];
 subgraph cluster_root___frame {
 label=frame;
 rankdir=LR;
-V_216 [fillcolor=grey, fontsize=12, label=dt_pulse, penwidth=3, style=filled];
-V_217 [fillcolor=grey, fontsize=12, label=pulse, penwidth=3, style=filled];
-V_5 [fillcolor=grey, fontsize=12, label=t, penwidth=3, style=filled];
-V_6 [fillcolor=grey, fontsize=12, label=to, penwidth=3, style=filled];
-V_7 [fillcolor=grey, fontsize=12, label=te, penwidth=3, style=filled];
+V_216 [fillcolor=lightcyan4, fontsize=12, label=dt_pulse, penwidth=3, style=filled];
+V_217 [fillcolor=lightcyan4, fontsize=12, label=pulse, penwidth=3, style=filled];
+V_5 [fillcolor=lightcyan4, fontsize=12, label=t, penwidth=3, style=filled];
+V_6 [fillcolor=lightcyan4, fontsize=12, label=to, penwidth=3, style=filled];
+V_7 [fillcolor=lightcyan4, fontsize=12, label=te, penwidth=3, style=filled];
 E_180 [fillcolor=pink, fontsize=12, shape=box, style=filled];
 E_180 -> V_217  [splines=ortho];
 E_4 [fillcolor=pink, fontsize=12, shape=box, style=filled];
@@ -46,10 +46,10 @@ E_3 -> V_1  [splines=ortho];
 subgraph cluster_root___constant {
 label=constant;
 rankdir=LR;
-V_1 [fillcolor=seagreen, fontsize=12, label=value, penwidth=3, style=filled];
-V_2 [fillcolor=seagreen, fontsize=12, label=one, penwidth=3, style=filled];
-V_3 [fillcolor=seagreen, fontsize=12, label=zero, penwidth=3, style=filled];
-V_4 [fillcolor=seagreen, fontsize=12, label=onehalf, penwidth=3, style=filled];
+V_1 [fillcolor=green, fontsize=12, label=value, penwidth=3, style=filled];
+V_2 [fillcolor=green, fontsize=12, label=one, penwidth=3, style=filled];
+V_3 [fillcolor=green, fontsize=12, label=zero, penwidth=3, style=filled];
+V_4 [fillcolor=green, fontsize=12, label=onehalf, penwidth=3, style=filled];
 E_1 [fillcolor=pink, fontsize=12, shape=box, style=filled];
 E_1 -> V_2  [splines=ortho];
 E_2 [fillcolor=pink, fontsize=12, shape=box, style=filled];

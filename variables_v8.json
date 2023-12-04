@@ -453,19 +453,15 @@
       "equations": {
         "E_81": {
           "rhs": {
-            "global_ID": " D_0 V_71 O_4 V_76 O_4 V_90 D_1  O_5 I_1 O_5 V_18"
+            "global_ID": " D_0{{A_{yz}}}{_{N}} O_4{{\\_k^q_x}}{_{N}} O_4{D}{_{N, A}} D_1  O_5 I_1 O_5{T}{_{N}}",
+            "latex": "\\left({{A_{yz}}}{_{N}} \\, . \\, {{\\_k^q_x}}{_{N}} \\, . \\, {D}{_{N, A}}\\right) \\stackrel{N}{\\,\\star\\,} {T}{_{N}}"
           },
           "type": "generic",
           "doc": "heat flow in x-direction for given stream",
           "network": "macroscopic",
-          "incidence_list": [
-            "V_18",
-            "V_71",
-            "V_76",
-            "V_90"
-          ],
+          "incidence_list": [],
           "created": "2023-09-06 09:59:12",
-          "modified": "2023-11-21 15:00:09",
+          "modified": "2023-12-04 16:45:45",
           "lhs": {
             "global_ID": "V_106",
             "matlab": "fq_A_x(A)",
@@ -3888,16 +3884,15 @@
         },
         "E_191": {
           "rhs": {
-            "global_ID": " F_18 D_0 V_221 D_1"
+            "global_ID": " F_18 D_0{0}{_{N}} D_1",
+            "latex": "Root\\left( {0}{_{N}}\\right)"
           },
           "type": "generic",
           "doc": "temperature",
           "network": "macroscopic",
-          "incidence_list": [
-            "V_221"
-          ],
+          "incidence_list": [],
           "created": "2023-11-20 16:47:45",
-          "modified": "2023-11-20 16:47:45",
+          "modified": "2023-12-04 16:37:29",
           "lhs": {
             "global_ID": "V_18",
             "matlab": "T(N)",
@@ -6095,64 +6090,6 @@
         0
       ]
     },
-    "V_219": {
-      "IRI": "promo:T_norm",
-      "aliases": {
-        "matlab": "T_norm",
-        "latex": "{T^{\\star}}",
-        "internal_code": "T_norm",
-        "global_ID": "V_219"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_219",
-        "matlab": "T_norm(N)",
-        "latex": "{{T^{\\star}}}{_{N}}"
-      },
-      "created": "2023-11-14 17:05:52",
-      "doc": "temprature transmitter constant",
-      "equations": {
-        "E_186": {
-          "rhs": {
-            "global_ID": " O_11 D_0 V_125 D_7 V_1 D_1",
-            "matlab": "instantiate(_T(N), value)",
-            "latex": "\\text{Instantiate}({{\\_T}}{_{N}}, {\\#}{_{}})"
-          },
-          "type": "generic",
-          "doc": "temprature transmitter constant",
-          "network": "control",
-          "incidence_list": [
-            "V_1",
-            "V_125"
-          ],
-          "created": "2023-11-14 17:05:52",
-          "modified": "2023-11-14 17:05:52",
-          "lhs": {
-            "global_ID": "V_219",
-            "matlab": "T_norm(N)",
-            "latex": "{{T^{\\star}}}{_{N}}"
-          }
-        }
-      },
-      "index_structures": [
-        "I_1"
-      ],
-      "label": "T_norm",
-      "modified": "2023-11-14 17:05:52",
-      "network": "control",
-      "port_variable": false,
-      "tokens": [],
-      "type": "constant",
-      "units": [
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0
-      ]
-    },
     "V_22": {
       "IRI": "qudt:GibbsEnergy",
       "aliases": {
@@ -6210,64 +6147,6 @@
         2,
         0,
         1,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    "V_220": {
-      "IRI": "promo:T_measured",
-      "aliases": {
-        "matlab": "T_measured",
-        "latex": "{\\breve{T}}",
-        "internal_code": "T_measured",
-        "global_ID": "V_220"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_220",
-        "matlab": "T_measured(N)",
-        "latex": "{{\\breve{T}}}{_{N}}"
-      },
-      "created": "2023-11-14 17:10:29",
-      "doc": "temperature signal",
-      "equations": {
-        "E_187": {
-          "rhs": {
-            "global_ID": " V_125 O_4 F_15 D_0 V_219 D_1",
-            "matlab": "_T(N) .* 1 ./ T_norm(N)",
-            "latex": "{{\\_T}}{_{N}} \\, . \\, \\left( {{T^{\\star}}}{_{N}} \\right)^{-1}"
-          },
-          "type": "generic",
-          "doc": "temperature signal",
-          "network": "control",
-          "incidence_list": [
-            "V_125",
-            "V_219"
-          ],
-          "created": "2023-11-14 17:10:29",
-          "modified": "2023-11-14 17:10:29",
-          "lhs": {
-            "global_ID": "V_220",
-            "matlab": "T_measured(N)",
-            "latex": "{{\\breve{T}}}{_{N}}"
-          }
-        }
-      },
-      "index_structures": [
-        "I_1"
-      ],
-      "label": "T_measured",
-      "modified": "2023-11-14 17:10:29",
-      "network": "control",
-      "port_variable": false,
-      "tokens": [],
-      "type": "algebraic",
-      "units": [
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,

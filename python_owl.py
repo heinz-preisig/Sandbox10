@@ -45,7 +45,7 @@ from Common.ontology_container import OntologyContainer
 
 from owlready2 import *
 
-ontology = OntologyContainer("Sandbox9") #'flash_03')
+ontology = OntologyContainer("Sandbox10") #'flash_03')
 
 
 variables = ontology.variables
@@ -2474,28 +2474,6 @@ V_V_218.temperature = [ units[4] ]
 V_V_218.current = [ units[5] ]
 V_V_218.light = [ units[6] ]
 
-# V_219
-label = variables[V_219]["label"]
-network = variables[V_219]["network"]
-variable_type = variables[V_219]["type"]
-label = variables[V_219]["label"]
-doc = variables[V_219]["doc"]
-onto_ID = "V_V_219"
-V_V_219 = onto.ProMoVar( onto_ID )
-V_V_219.label = label
-V_V_219.network = network
-V_V_219.variable_type = variable_type
-V_V_219.comment = doc
-
-units = variables[V_219]["units"].asList()
-V_V_219.time = [ units[0] ]
-V_V_219.length = [ units[1] ]
-V_V_219.amount = [ units[2] ]
-V_V_219.mass = [ units[3] ]
-V_V_219.temperature = [ units[4] ]
-V_V_219.current = [ units[5] ]
-V_V_219.light = [ units[6] ]
-
 # V_22
 label = variables[V_22]["label"]
 network = variables[V_22]["network"]
@@ -2517,28 +2495,6 @@ V_V_22.mass = [ units[3] ]
 V_V_22.temperature = [ units[4] ]
 V_V_22.current = [ units[5] ]
 V_V_22.light = [ units[6] ]
-
-# V_220
-label = variables[V_220]["label"]
-network = variables[V_220]["network"]
-variable_type = variables[V_220]["type"]
-label = variables[V_220]["label"]
-doc = variables[V_220]["doc"]
-onto_ID = "V_V_220"
-V_V_220 = onto.ProMoVar( onto_ID )
-V_V_220.label = label
-V_V_220.network = network
-V_V_220.variable_type = variable_type
-V_V_220.comment = doc
-
-units = variables[V_220]["units"].asList()
-V_V_220.time = [ units[0] ]
-V_V_220.length = [ units[1] ]
-V_V_220.amount = [ units[2] ]
-V_V_220.mass = [ units[3] ]
-V_V_220.temperature = [ units[4] ]
-V_V_220.current = [ units[5] ]
-V_V_220.light = [ units[6] ]
 
 # V_221
 label = variables[V_221]["label"]
@@ -4154,10 +4110,6 @@ V_V_105.has_function.append( F_E_80 )
 
 V_V_106.has_function = []
 incidence_list = []
-incidence_list.append( V_71 )
-incidence_list.append( V_76 )
-incidence_list.append( V_90 )
-incidence_list.append( V_18 )
 F_ID = "F_E_81"
 F_E_81 = onto.function( F_ID )
 F_E_81.is_function_of = incidence_list
@@ -4702,7 +4654,6 @@ F_E_185 = onto.function( F_ID )
 F_E_185.is_function_of = incidence_list
 V_V_18.has_function.append( F_E_185 )
 incidence_list = []
-incidence_list.append( V_221 )
 F_ID = "F_E_191"
 F_E_191 = onto.function( F_ID )
 F_E_191.is_function_of = incidence_list
@@ -5074,16 +5025,6 @@ F_ID = "F_E_183"
 F_E_183 = onto.function( F_ID )
 F_E_183.is_function_of = incidence_list
 V_V_218.has_function.append( F_E_183 )
-#V_219
-
-V_V_219.has_function = []
-incidence_list = []
-incidence_list.append( V_125 )
-incidence_list.append( V_1 )
-F_ID = "F_E_186"
-F_E_186 = onto.function( F_ID )
-F_E_186.is_function_of = incidence_list
-V_V_219.has_function.append( F_E_186 )
 #V_22
 
 V_V_22.has_function = []
@@ -5097,16 +5038,6 @@ F_ID = "F_E_11"
 F_E_11 = onto.function( F_ID )
 F_E_11.is_function_of = incidence_list
 V_V_22.has_function.append( F_E_11 )
-#V_220
-
-V_V_220.has_function = []
-incidence_list = []
-incidence_list.append( V_125 )
-incidence_list.append( V_219 )
-F_ID = "F_E_187"
-F_E_187 = onto.function( F_ID )
-F_E_187.is_function_of = incidence_list
-V_V_220.has_function.append( F_E_187 )
 #V_221
 
 V_V_221.has_function = []

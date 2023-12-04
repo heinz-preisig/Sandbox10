@@ -9,9 +9,15 @@
       "variant": "MaterialSource",
       "instantiated_variables": {},
       "tokens": {
-        "mass": []
+        "mass": [
+          "A"
+        ]
       },
-      "injected_typed_tokens": {},
+      "injected_typed_tokens": {
+        "mass": [
+          "A"
+        ]
+      },
       "mass": []
     },
     "2": {
@@ -23,7 +29,9 @@
       "variant": "MassControlVolume",
       "instantiated_variables": {},
       "tokens": {
-        "mass": [],
+        "mass": [
+          "A"
+        ],
         "information": []
       },
       "conversions": {},
@@ -59,6 +67,40 @@
       "instantiated_variables": {},
       "tokens": {},
       "conversions": {}
+    },
+    "6": {
+      "name": "default",
+      "network": "solid",
+      "named_network": "A-solid",
+      "class": "node_simple",
+      "type": "dynamic|lumped",
+      "variant": "MassControlVolume",
+      "instantiated_variables": {},
+      "tokens": {
+        "mass": [
+          "A"
+        ]
+      },
+      "conversions": {},
+      "mass": []
+    },
+    "7": {
+      "name": "default",
+      "network": "solid",
+      "named_network": "A-solid >>> A-solid",
+      "class": "node_arc",
+      "type": "mass|convection|lumped",
+      "variant": null,
+      "instantiated_variables": {},
+      "tokens": {
+        "mass": [
+          "A"
+        ]
+      },
+      "tokens_right": {},
+      "tokens_left": {},
+      "transfer_constraints": {},
+      "mass": []
     }
   },
   "arcs": {
@@ -67,7 +109,9 @@
       "source": 1,
       "sink": 2,
       "token": "mass",
-      "typed_tokens": [],
+      "typed_tokens": [
+        "A"
+      ],
       "network": "solid",
       "named_network": "A-solid",
       "mechanism": "convection",
@@ -99,6 +143,34 @@
       "mechanism": "link",
       "nature": "unidirectional",
       "variant": "interface",
+      "instantiated_variables": {}
+    },
+    "3": {
+      "name": "2 | 7",
+      "source": 2,
+      "sink": 7,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "solid",
+      "named_network": "A-solid",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "ConvectiveFlow",
+      "instantiated_variables": {}
+    },
+    "4": {
+      "name": "7 | 6",
+      "source": 7,
+      "sink": 6,
+      "token": "mass",
+      "typed_tokens": [
+        "A"
+      ],
+      "network": "solid",
+      "named_network": "A-solid",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "ConvectiveFlow",
       "instantiated_variables": {}
     }
   },
@@ -189,7 +261,9 @@
     "mass": {
       "0": [
         1,
-        2
+        2,
+        6,
+        7
       ]
     },
     "signal": {}
@@ -197,7 +271,14 @@
   "typed_token_domains": {
     "mass": {
       "0": {
-        "species": {}
+        "species": {
+          "A": [
+            1,
+            2,
+            6,
+            7
+          ]
+        }
       }
     }
   },
@@ -208,19 +289,44 @@
           0
         ],
         "2": [
-          0
+          0,
+          3
+        ],
+        "7": [
+          3,
+          4
+        ],
+        "6": [
+          4
         ]
       }
     }
   },
   "typed_token_incidence_matrix": {
     "mass": {
-      "0": {}
+      "0": {
+        "A": {
+          "1": [
+            0
+          ],
+          "2": [
+            0
+          ],
+          "7": [
+            4
+          ],
+          "6": [
+            4
+          ]
+        }
+      }
     }
   },
   "typed_token_lists": {
     "mass": {
-      "0": []
+      "0": [
+        "A"
+      ]
     }
   }
 }

@@ -364,16 +364,6 @@
     "network": "macroscopic",
     "rhs": " Root ( H )"
   },
-  "E_186": {
-    "lhs": "T_norm",
-    "network": "control",
-    "rhs": " Instantiate ( _T , value )"
-  },
-  "E_187": {
-    "lhs": "T_measured",
-    "network": "control",
-    "rhs": " _T . inv ( T_norm )"
-  },
   "E_188": {
     "lhs": "dHdt_0",
     "network": "macroscopic",
@@ -387,7 +377,7 @@
   "E_191": {
     "lhs": "T",
     "network": "macroscopic",
-    "rhs": " Root ( dHdt_0 )"
+    "rhs": " Root  )"
   },
   "E_2": {
     "lhs": "zero",
@@ -672,7 +662,7 @@
   "E_81": {
     "lhs": "fq_A_x",
     "network": "macroscopic",
-    "rhs": " ( Ayz . _kq_x . D ) | N | T"
+    "rhs": "    bla......A}}........ ) | N "
   },
   "E_82": {
     "lhs": "fq",

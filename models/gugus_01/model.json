@@ -7,7 +7,9 @@
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7
       ]
     },
     "1": {
@@ -35,6 +37,18 @@
       "children": []
     },
     "5": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "6": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "7": {
       "ancestors": [
         0
       ],
@@ -141,9 +155,15 @@
       "variant": "MaterialSource",
       "instantiated_variables": {},
       "tokens": {
-        "mass": []
+        "mass": [
+          "A"
+        ]
       },
-      "injected_typed_tokens": {},
+      "injected_typed_tokens": {
+        "mass": [
+          "A"
+        ]
+      },
       "mass": []
     },
     "2": {
@@ -155,7 +175,9 @@
       "variant": "MassControlVolume",
       "instantiated_variables": {},
       "tokens": {
-        "mass": [],
+        "mass": [
+          "A"
+        ],
         "information": []
       },
       "conversions": {},
@@ -191,6 +213,40 @@
       "instantiated_variables": {},
       "tokens": {},
       "conversions": {}
+    },
+    "6": {
+      "name": "default",
+      "network": "solid",
+      "named_network": "A-solid",
+      "class": "node_simple",
+      "type": "dynamic|lumped",
+      "variant": "MassControlVolume",
+      "instantiated_variables": {},
+      "tokens": {
+        "mass": [
+          "A"
+        ]
+      },
+      "conversions": {},
+      "mass": []
+    },
+    "7": {
+      "name": "default",
+      "network": "solid",
+      "named_network": "A-solid >>> A-solid",
+      "class": "node_arc",
+      "type": "mass|convection|lumped",
+      "variant": null,
+      "instantiated_variables": {},
+      "tokens": {
+        "mass": [
+          "A"
+        ]
+      },
+      "tokens_right": {},
+      "tokens_left": {},
+      "transfer_constraints": {},
+      "mass": []
     }
   },
   "domains": {},
@@ -200,7 +256,9 @@
       "source": 1,
       "sink": 2,
       "token": "mass",
-      "typed_tokens": [],
+      "typed_tokens": [
+        "A"
+      ],
       "network": "solid",
       "named_network": "A-solid",
       "mechanism": "convection",
@@ -232,6 +290,34 @@
       "mechanism": "link",
       "nature": "unidirectional",
       "variant": "interface",
+      "instantiated_variables": {}
+    },
+    "3": {
+      "name": "2 | 7",
+      "source": 2,
+      "sink": 7,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "solid",
+      "named_network": "A-solid",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "ConvectiveFlow",
+      "instantiated_variables": {}
+    },
+    "4": {
+      "name": "7 | 6",
+      "source": 7,
+      "sink": 6,
+      "token": "mass",
+      "typed_tokens": [
+        "A"
+      ],
+      "network": "solid",
+      "named_network": "A-solid",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "ConvectiveFlow",
       "instantiated_variables": {}
     }
   },
@@ -299,8 +385,8 @@
           }
         },
         "4": {
-          "position_x": -63,
-          "position_y": -167,
+          "position_x": -61.0,
+          "position_y": -179.0,
           "root": {
             "position_x": 0,
             "position_y": 0
@@ -329,12 +415,46 @@
             "position_x": -20,
             "position_y": 0
           }
+        },
+        "6": {
+          "position_x": 206.0,
+          "position_y": -30.0,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -15,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -20,
+            "position_y": 0
+          }
+        },
+        "7": {
+          "position_x": 82.0,
+          "position_y": -30.0,
+          "root": {
+            "position_x": -50,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          }
         }
       },
       "arcs": {
         "0": [],
         "1": [],
-        "2": []
+        "2": [],
+        "3": [],
+        "4": []
       }
     },
     "1": {
@@ -347,7 +467,8 @@
       "nodes": {},
       "arcs": {
         "0": [],
-        "1": []
+        "1": [],
+        "3": []
       }
     },
     "3": {
@@ -366,6 +487,19 @@
     "5": {
       "nodes": {},
       "arcs": {}
+    },
+    "6": {
+      "nodes": {},
+      "arcs": {
+        "4": []
+      }
+    },
+    "7": {
+      "nodes": {},
+      "arcs": {
+        "3": [],
+        "4": []
+      }
     }
   }
 }

@@ -1261,5 +1261,21 @@
         "output_vars": [
             "V_17"
         ]
+    },
+    "material.node.mass|constant|infinity.propertySource": {
+        "index_set": "N_cons",
+        "integrators": {},
+        "var_eq_forest": [
+            {
+                "V_59": []
+            }
+        ],
+        "init_vars": [
+            "V_59"
+        ],
+        "input_vars": [],
+        "output_vars": [
+            "V_59"
+        ]
     }
 }

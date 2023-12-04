@@ -94,9 +94,258 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          }
+        },
+        "tail": {
+          "-": {
+            "-": {
+              "action": [
+                "instantiate"
+              ],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 10,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 10
+            }
+          }
+        }
+      },
+      "arc_left": {
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
                 255
               ],
               "layer": "arc",
@@ -286,9 +535,7 @@
         "tail": {
           "-": {
             "-": {
-              "action": [
-                "instantiate"
-              ],
+              "action": [],
               "colour": [
                 186,
                 189,
@@ -301,6 +548,253 @@
               "position_x": 0,
               "position_y": 0,
               "width": 10
+            }
+          }
+        }
+      },
+      "arc_right": {
+        "head": {
+          "-": {
+            "-": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 15,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 15
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                52,
+                101,
+                164,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
             }
           }
         }
@@ -394,6 +888,245 @@
           }
         }
       },
+      "node_arc": {
+        "name": {
+          "-": {
+            "-": {
+              "action": [],
+              "layer": "text",
+              "movable": true,
+              "position_x": 0,
+              "position_y": 50
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                46,
+                194,
+                126,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                192,
+                28,
+                40,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                53,
+                132,
+                228,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                181,
+                131,
+                90,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          }
+        }
+      },
       "node_composite": {
         "name": {
           "-": {
@@ -448,21 +1181,21 @@
           }
         },
         "root": {
-          "inter": {
+          "node_interface": {
             "enabled": {
               "action": [],
               "colour": [
-                78,
-                154,
-                6,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -473,11 +1206,11 @@
                 255
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             }
           }
         }
@@ -527,6 +1260,38 @@
               "position_x": 0,
               "position_y": -25,
               "width": 10
+            }
+          },
+          "node_intraface": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                255,
+                255,
+                100
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
             }
           }
         }
@@ -975,9 +1740,151 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          }
+        },
+        "tail": {
+          "-": {
+            "-": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 10,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 10
+            }
+          }
+        }
+      },
+      "arc_left": {
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
                 255
               ],
               "layer": "arc",
@@ -1094,6 +2001,148 @@
           }
         }
       },
+      "arc_right": {
+        "head": {
+          "-": {
+            "-": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 15,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 15
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                52,
+                101,
+                164,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          }
+        }
+      },
       "connector": {
         "name": {
           "-": {
@@ -1183,6 +2232,350 @@
           }
         }
       },
+      "node_arc": {
+        "name": {
+          "-": {
+            "-": {
+              "action": [],
+              "layer": "text",
+              "movable": true,
+              "position_x": 0,
+              "position_y": 50
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                46,
+                194,
+                126,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|conduction|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                192,
+                28,
+                40,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|work|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                53,
+                132,
+                228,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "information|link|unidirectional": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|convection|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|diffusion|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                181,
+                131,
+                90,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "signal|link|unidirectional": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          }
+        }
+      },
       "node_composite": {
         "name": {
           "-": {
@@ -1236,7 +2629,7 @@
           }
         },
         "root": {
-          "inter": {
+          "node_interface": {
             "blocked": {
               "action": [],
               "colour": [
@@ -1246,26 +2639,26 @@
                 255
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             },
             "enabled": {
               "action": [],
               "colour": [
-                78,
-                154,
-                6,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -1276,11 +2669,11 @@
                 255
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             }
           }
         }
@@ -1345,6 +2738,53 @@
               "position_x": 0,
               "position_y": -25,
               "width": 10
+            }
+          },
+          "node_intraface": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                255,
+                255,
+                100
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
             }
           }
         }
@@ -1958,9 +3398,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                255,
+                0,
+                0,
                 255
               ],
               "layer": "arc",
@@ -2005,9 +3445,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
+                0,
+                0,
+                0,
                 255
               ],
               "layer": "arc",
@@ -2263,6 +3703,730 @@
           }
         }
       },
+      "arc_left": {
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                52,
+                101,
+                164,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          }
+        },
+        "tail": {
+          "-": {
+            "-": {
+              "action": [
+                "re-direct arc",
+                "remove arc",
+                "insert knot"
+              ],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 10,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 10
+            }
+          },
+          "energy|conduction|lumped": {
+            "-": {
+              "height": 10,
+              "width": 10
+            }
+          }
+        }
+      },
+      "arc_right": {
+        "head": {
+          "-": {
+            "-": {
+              "action": [
+                "re-direct arc",
+                "remove arc",
+                "insert knot"
+              ],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 15,
+              "layer": "knot",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 15
+            }
+          },
+          "energy|conduction|lumped": {
+            "-": {
+              "height": 15,
+              "width": 15
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                148,
+                153,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          },
+          "energy|conduction|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "energy|work|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                52,
+                101,
+                164,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dashed",
+              "width": 2
+            }
+          },
+          "information|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                196,
+                160,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "mass|convection|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "solid",
+              "width": 2
+            }
+          },
+          "mass|diffusion|lumped": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dotted",
+              "width": 2
+            }
+          },
+          "signal|link|unidirectional": {
+            "enabled": {
+              "action": [],
+              "colour": [
+                138,
+                226,
+                52,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "open": {
+              "action": [],
+              "colour": [
+                114,
+                159,
+                207,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "layer": "arc",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "style": "dash dot",
+              "width": 2
+            }
+          }
+        }
+      },
       "connector": {
         "name": {
           "-": {
@@ -2353,6 +4517,350 @@
           }
         }
       },
+      "node_arc": {
+        "name": {
+          "-": {
+            "-": {
+              "action": [],
+              "layer": "text",
+              "movable": true,
+              "position_x": 0,
+              "position_y": 50
+            }
+          }
+        },
+        "root": {
+          "charge|conduction|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                46,
+                194,
+                126,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|conduction|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                192,
+                28,
+                40,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "energy|work|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                53,
+                132,
+                228,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "information|link|unidirectional": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|convection|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "mass|diffusion|lumped": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                181,
+                131,
+                90,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          },
+          "signal|link|unidirectional": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                246,
+                211,
+                45,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 20,
+              "layer": "node",
+              "movable": false,
+              "position_x": -15,
+              "position_y": -10,
+              "width": 30
+            }
+          }
+        }
+      },
       "node_composite": {
         "name": {
           "-": {
@@ -2408,7 +4916,7 @@
           }
         },
         "root": {
-          "inter": {
+          "node_interface": {
             "blocked": {
               "action": [],
               "colour": [
@@ -2418,26 +4926,26 @@
                 255
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             },
             "enabled": {
               "action": [],
               "colour": [
-                78,
-                154,
-                6,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -2448,11 +4956,11 @@
                 255
               ],
               "height": 10,
-              "layer": "node",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 50
+              "width": 10
             }
           }
         }
@@ -2517,6 +5025,53 @@
               "position_x": 0,
               "position_y": -25,
               "width": 10
+            }
+          },
+          "node_intraface": {
+            "blocked": {
+              "action": [],
+              "colour": [
+                186,
+                189,
+                182,
+                255
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
+            },
+            "enabled": {
+              "action": [],
+              "colour": [
+                255,
+                255,
+                255,
+                100
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
+            },
+            "selected": {
+              "action": [],
+              "colour": [
+                252,
+                233,
+                79,
+                255
+              ],
+              "height": 100,
+              "layer": "mainPanel",
+              "movable": false,
+              "position_x": 0,
+              "position_y": 0,
+              "width": 100
             }
           }
         }
@@ -3013,6 +5568,14 @@
         100
       ]
     },
+    "control >>> energy": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
     "control >>> gas": {
       "colour": [
         200,
@@ -3046,6 +5609,70 @@
       ]
     },
     "control >>> solid": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> control": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> energy": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> gas": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> liquid": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> material": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> reactions": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "energy >>> solid": {
       "colour": [
         255,
         255,
@@ -3173,6 +5800,14 @@
         100
       ]
     },
+    "material >>> energy": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
     "material >>> gas": {
       "colour": [
         255,
@@ -3222,6 +5857,14 @@
       ]
     },
     "reactions >>> control": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "reactions >>> energy": {
       "colour": [
         255,
         255,

@@ -57,6 +57,28 @@
           },
           "cursor": "-"
         },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
+        "('arc_right', 'head', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('connector', 'name', '-')": {
           "left": {
             "state": "-",
@@ -389,6 +411,28 @@
           },
           "cursor": "TC_L_insknot-R_recon"
         },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "insert knot"
+          },
+          "right": {
+            "state": "re-connect_arc",
+            "output": "re-direct arc"
+          },
+          "cursor": "TC_L_insknot-R_recon"
+        },
+        "('arc_right', 'head', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "re-connect_arc",
+            "output": "re-direct arc"
+          },
+          "cursor": "TC_L_insknot-R_recon"
+        },
         "('connector', 'name', '-')": {
           "left": {
             "state": "-",
@@ -711,6 +755,28 @@
           "cursor": "-"
         },
         "('arc_edge', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
+        "('arc_right', 'head', '-')": {
           "left": {
             "state": "-",
             "output": "-"
@@ -1053,6 +1119,28 @@
           },
           "cursor": "-"
         },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
+        "('arc_right', 'head', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('connector', 'name', '-')": {
           "left": {
             "state": "-",
@@ -1385,6 +1473,28 @@
           },
           "cursor": "-"
         },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
+        "('arc_right', 'head', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('connector', 'name', '-')": {
           "left": {
             "state": "-",
@@ -1707,6 +1817,28 @@
           "cursor": "-"
         },
         "('arc_edge', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "remove arc"
+          },
+          "cursor": "TC_L_blank-R_del"
+        },
+        "('arc_left', 'tail', '-')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "remove arc"
+          },
+          "cursor": "TC_L_blank-R_del"
+        },
+        "('arc_right', 'head', '-')": {
           "left": {
             "state": "-",
             "output": "-"

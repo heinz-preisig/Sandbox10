@@ -21,6 +21,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_right', 'head', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('connector', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
@@ -55,6 +57,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{TC\_L\_blank-R\_del} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{remove arc})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{TC\_L\_blank-R\_del} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{remove arc})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{TC\_L\_blank-R\_del} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{remove arc})\\
+\object{('arc\_right', 'head', '-')} &\cursor{TC\_L\_blank-R\_del} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{remove arc})\\
 \object{('connector', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{TC\_L\_blank-R\_del} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{remove knot})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
@@ -89,6 +93,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_right', 'head', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('connector', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
@@ -123,6 +129,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_right', 'head', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('connector', 'name', '-')} &\cursor{CC\_L\_change-R\_blank} &(\leftnextstate{-}, \leftaction{name node}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{CC\_L\_change-R\_blank} &(\leftnextstate{-}, \leftaction{name node}) &(\rightnextstate{-}, \rightaction{-})\\
@@ -157,6 +165,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{TC\_L\_insknot-R\_recon} &(\leftnextstate{-}, \leftaction{insert knot}) &(\rightnextstate{re-connect\_arc}, \rightaction{re-direct arc})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{TC\_L\_blank-R\_recon} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{re-connect\_arc}, \rightaction{re-direct arc})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{TC\_L\_insknot-R\_recon} &(\leftnextstate{-}, \leftaction{insert knot}) &(\rightnextstate{re-connect\_arc}, \rightaction{re-direct arc})\\
+\object{('arc\_right', 'head', '-')} &\cursor{TC\_L\_insknot-R\_recon} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{re-connect\_arc}, \rightaction{re-direct arc})\\
 \object{('connector', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
@@ -191,6 +201,8 @@
 \object{('arc\_edge', 'tail', 'normal')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'open')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('arc\_edge', 'tail', 'selected')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_left', 'tail', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
+\object{('arc\_right', 'head', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('connector', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('knot', 'root', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
 \object{('node\_boundary', 'name', '-')} &\cursor{-} &(\leftnextstate{-}, \leftaction{-}) &(\rightnextstate{-}, \rightaction{-})\\
