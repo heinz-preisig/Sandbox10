@@ -1,0 +1,103 @@
+
+% automatically generated - do not edit
+%
+% =======================================
+
+\documentclass[landscape, 12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\usepackage[text={\textwidth,10cm},
+		a4paper,
+		headsep=0.7cm,
+		top=2cm,
+		bottom=2cm,
+		left=2cm,
+		right=2cm,
+		%		showframe,
+		showcrop,
+		%nofoot,
+		nomarginpar
+		]{geometry}
+\usepackage[%
+        backref,
+        %	ps2pdf,
+        %	dvips,
+        final,
+        %pdftitle={#1},
+        pdfauthor={Heinz A Preisig},
+        pdfsubject={'CAM'},
+        colorlinks=true,
+        linkcolor=red,
+        citecolor=blue,
+        anchorcolor=blue,
+        hyperindex=true,
+        bookmarks,
+        bookmarksopen=true,
+        bookmarksnumbered=true,
+        bookmarksdepth=10,
+        hyperfigures=true,
+        %a4paper,
+        linktocpage=true,
+        pageanchor=true,
+        ]{hyperref}
+
+\usepackage{enumitem}
+
+%% math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{calligra}
+\usepackage{array}
+
+%% >>>>>>>>>>>>>>>> user definitions BIBLIOGRAPHY & DEFS <<<<<<<<<<<<<<<<<<<<<<<<
+
+\input{./resources/defs}
+\input{./resources/defvars}
+\parindent=0pt
+
+
+
+
+\newenvironment{eq}{\begin{minipage}{16cm}$}{$\end{minipage} }
+%\newenvironment{eq}{$}{$}
+
+% ==================================== body  =====================================
+\begin{document}
+
+
+\section*{Equation assignment sequence for variable ${y}{_{A}}$}
+
+
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{longtable}{|p{1cm}|p{1cm}|p{1cm}|p{16cm}|p{4cm}|}\hline
+  no &var &equ &quations &token\\\hline\hline
+\endhead
+\hline \multicolumn{3}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+14 &V_130 &- &\begin{eq}{B}{_{A, D}} :: \text{port variable}\end{eq} & \\
+13 &V_129 &- &\begin{eq}{A}{_{N, D}} :: \text{port variable}\end{eq} & \\
+12 &V_1 &- &\begin{eq}{\#}{_{}} :: \text{port variable}\end{eq} & \\
+11 &V_5 &- &\begin{eq}{t}{_{}} :: \text{port variable}\end{eq} & \\
+10 &V_139 &- &\begin{eq}{1}{_{N, D}} :: \text{port variable}\end{eq} & \\
+9 &V_134 &- &\begin{eq}{m}{_{A}} :: \text{port variable}\end{eq} & \\
+8 &V_132 &- &\begin{eq}{D}{_{A}} :: \text{port variable}\end{eq} & \\
+7 &V_131 &- &\begin{eq}{C}{_{N, A}} :: \text{port variable}\end{eq} & \\
+6 &V_7 &E_5 &\begin{eq}{{t^e}}{_{}} := \text{Instantiate}({t}{_{}}, {\#}{_{}})\end{eq} & \\
+5 &V_6 &E_4 &\begin{eq}{{t^o}}{_{}} := \text{Instantiate}({t}{_{}}, {\#}{_{}})\end{eq} & \\
+4 &V_138 &E_110 &\begin{eq}{{\dot{x}}}{_{D}} := {A}{_{N, D}} \stackrel{N}{\,\star\,} {x}{_{N}}  + {B}{_{A, D}} \stackrel{A}{\,\star\,} {e}{_{A}}\end{eq} & \\
+3 &V_133 &E_119 &\begin{eq}{{y^o}}{_{A}} := \text{Instantiate}({{y^o}}{_{A}}, {\#}{_{}})\end{eq} & \\
+2 &V_136 &E_111 &\begin{eq}{x}{_{N}} := \int_{ {{t^o}}{_{}} }^{ {{t^e}}{_{}} } \, {1}{_{N, D}} \stackrel{D}{\,\star\,} {{\dot{x}}}{_{D}} \enskip d\,{t}{_{}}\end{eq} & \\
+1 &V_135 &E_108 &\begin{eq}{e}{_{A}} := {m}{_{A}}  - {{y^o}}{_{A}}\end{eq} & \\
+0 &V_154 &E_126 &\begin{eq}{y}{_{A}} := {C}{_{N, A}} \stackrel{N}{\,\star\,} {x}{_{N}}  + {D}{_{A}} \, . \, {e}{_{A}}\end{eq} & \\
+
+\end{longtable}
+
+\end{document}
+% ================================== end =========================================
